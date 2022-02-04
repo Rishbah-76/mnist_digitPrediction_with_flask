@@ -1,0 +1,25 @@
+<!doctype html>
+<head>
+<style>
+    body {background-color: rgb(109, 123, 197);}
+    title {text-align: center;}
+    h1 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+</style>
+</head>
+<body>
+    <title>Mnsit Handwritten Prediction</title>
+    <h1>Upload New Image</h1>
+    <div>
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+    <div class="loader" style="display:blue;"></div>
+    <h1 id="result" style="color:blue;">
+        <span> </span>
+    </h1>
+    </div>
+</body>
+</html>
